@@ -2,7 +2,7 @@
 
 # __Robert Arakelyan__
 
-## __Junior Frontend Developer__
+### __Junior Frontend Developer__
 
 ## __Contact information__
 - __Location:__ Astrakhan, Russia
