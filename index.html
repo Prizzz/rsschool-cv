@@ -5,8 +5,113 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Nunito:wght@300&display=swap" rel="stylesheet">
+    <!--Highlight.js-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <!--Style-->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="main-wrap">
+            <div class="header_left-decoration decoration"></div>
+            <div class="header_right-decoration decoration"></div>
+            <div class="aside-decoration decoration"></div>
+            <aside class="aside">
+                <img class="avatar" src="img/avatar.jpg" alt="avatar">
+                <article class="hard-skills">
+                    <h2 class="title">professional skills</h2>
+                    <ul class="list">
+                        <li class="list-item">HTML</li>
+                        <li class="list-item">CSS/SASS</li>
+                        <li class="list-item">JavaScript(Basic)</li>
+                        <li class="list-item">Git</li>
+                        <li class="list-item">Bootstrap</li>
+                        <li class="list-item">Figma (for web development)</li>
+                    </ul> 
+                </article>
+                <article class="soft-skills">
+                    <h2 class="title">personal skills</h2>
+                    <ul class="list">
+                        <li class="list-item">Organized</li>
+                        <li class="list-item">Time management</li>
+                        <li class="list-item">Team player</li>
+                        <li class="list-item">Fast learner</li>
+                        <li class="list-item">Motivated</li>
+                    </ul> 
+                </article>
+                <article class="contact">
+                    <h2 class="title">contacts</h2>
+                    <ul class="list">
+                        <li class="list-item">P: +79880762141</li>
+                        <li class="list-item">E: rob_243248@mail.ru</li>
+                        <li class="list-item">D: rob_bob#0403</li>
+                    </ul> 
+                </article>
+            </aside>
+            
+            <main class="main">
+                <header class="header-main">
+                    <h1 class="name">Robert<br>Arakelyan</h1>
+                    <h3 class="post">Junior Frontend Developer</h3>
+                </header>
+                <section class="about">
+                    <h2 class="title">about</h2>
+                    <p class="about-info">
+                        I’m a beginner front-end developer. Currently I want to become a professional in my field.
+                        I strive for knowledge and new skills. I can learn quickly and solve problems
+                    </p>
+                </section>
+                <section class="education">
+                    <h2 class="title">education</h2>
+                    <p class="education-info">
+                        <ul class="list">
+                            <li class="list-item">University: Astrakhan College of Computer Science</li>
+                            <li class="list-item">Courses:
+                                <ul class="list">
+                                    <li class="list-item">FreeCodeCamp(JavaScript)</li>
+                                    <li class="list-item">HTML Academy</li>
+                                    <li class="list-item">Glo Academy(intensives)</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </p>
+                </section>
+                <section class="language">
+                    <h2 class="title">language</h2>
+                    <ul class="list">
+                        <li class="list-item">English: A1</li>
+                        <li class="list-item">Russian: Native</li>
+                    </ul>
+                </section>
+                <section class="code">
+                    <h2 class="title">code example</h2>
+                    <pre><code class="js">
+    function nicknameGenerator(name){
+        if (name.length < 4) return 'Error: Name too short';
+                            
+        if(name[2].search(/[aeiou]/) == -1){
+            return name.slice(0, 3);
+        } else return name.slice(0, 4);
+    }
+                    </code></pre>
+                </section>
+            </main>
+        </div>
+        
+
+        <footer class="footer">
+            <a href="https://github.com/Prizzz">
+                <img class="github-logo logo" src="img/github.svg" alt="github-logo">
+            </a>
+            <span>2021</span>
+            <a href="https://rs.school/">
+                <img class="rs-logo logo" src="img/rs.svg" alt="rs-logo">
+            </a>
+        </footer>
+    </div>
 </body>
 </html>
