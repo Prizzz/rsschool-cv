@@ -2,7 +2,9 @@
 
 # __Robert Arakelyan__
 
-## __Contacts__
+## __Junior Frontend Developer__
+
+## __Contact information__
 - __Location:__ Astrakhan, Russia
 - __Phone:__ +89880762141
 - __Email:__ rob_243248@mail.com
@@ -38,5 +40,6 @@ function nicknameGenerator(name){
   - [HTML Academy](https://www.htmlacademy.ru)
   - [Glo Academy(intensives)](https://glo.academy/)
 
-## __English__
-__A1__ (I keep learning English every day) 
+## __Language__
+- Russian: __Native__
+- English: __A1__ (I keep learning English every day) 
