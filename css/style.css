@@ -125,7 +125,7 @@ font-family: 'Nunito', sans-serif;*/
   section {
     margin-top: 30px;
     padding: 0 20px 30px 20px;
-    max-width: 430px;
+    max-width: 500px;
     font-family: 'Nunito', sans-serif;
   }
 
@@ -170,4 +170,22 @@ font-family: 'Nunito', sans-serif;*/
   .footer span {
     color: #000;
     font-family: 'Nunito', sans-serif;
+  }
+
+  .project {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+
+  .project-img {
+    max-width: 235px;
+    margin-right: 20px;
+    border-radius: 5px; 
+  }
+
+  .stack {
+    display: block;
+    margin-top: 10px;
+    font-weight: 700;
   }
