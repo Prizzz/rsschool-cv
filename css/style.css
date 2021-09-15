@@ -146,6 +146,29 @@ font-family: 'Nunito', sans-serif;*/
     list-style: inherit;
   }
 
+  .project {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+
+  .project-img {
+    max-width: 235px;
+    margin-right: 20px;
+    border-radius: 5px; 
+  }
+
+  .project-img:hover {
+    transition: 0.2s;
+    box-shadow: 0px 6px 40px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  .stack {
+    display: block;
+    margin-top: 10px;
+    font-weight: 700;
+  }
+
   .footer {
     display: flex;
     justify-content: space-around;
@@ -172,20 +195,116 @@ font-family: 'Nunito', sans-serif;*/
     font-family: 'Nunito', sans-serif;
   }
 
-  .project {
-    display: flex;
-    align-items: center;
-    margin-bottom: 40px;
+  .hard-skills-section,
+  .soft-skills-section,
+  .contacts-section,
+  .avatar-section {
+    display: none;
   }
 
-  .project-img {
-    max-width: 235px;
-    margin-right: 20px;
-    border-radius: 5px; 
+  @media (max-width: 768px) {
+    .container {
+      max-width: 500px;
+    }
+
+    .header_right-decoration {
+      border-width: 0 500px 170px 0;
+    }
+
+    .header_left-decoration {
+      border-width: 200px 200px 0 0;
+    }
+
+    section {
+      max-width: 300px;
+      font-size: 13px;
+      padding: 0 15px 30px 15px;
+    }
+
+    article {
+      max-width: 100px;
+      font-size: 12px;
+      margin: 0;
+      margin-bottom: 40px;
+    }
+
+    .title {
+      font-size: 13px;
+    }
+
+    .main {
+      padding-left: 40px;
+    }
+
+    .name {
+      font-size: 30px;
+    }
+
+    .post {
+      font-size: 16px;
+    }
+
+    .avatar {
+      width: 120px;
+      height: 120px;
+    }
+
+    .project {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .project-img {
+      margin-bottom: 15px;
+    }
   }
 
-  .stack {
-    display: block;
-    margin-top: 10px;
-    font-weight: 700;
+  @media (max-width: 480px) {
+    .container {
+      max-width: 300px;
+    }
+
+    .header_right-decoration {
+      border-width: 0 300px 100px 0;
+    }
+
+    .header_left-decoration {
+      border-width: 120px 120px 0 0;
+    }
+
+    .aside, 
+    .aside-decoration {
+      display: none;
+    }
+
+    .hard-skills-section,
+    .soft-skills-section,
+    .contacts-section,
+    .avatar-section {
+      display: block;
+    }
+
+    .main-wrap {
+      justify-content: center;
+    }
+
+    .main {
+      padding: 0;
+      padding-top: 120px;
+    }
+
+    .header-main {
+      text-align: center;
+    }
+
+    section {
+      max-width: 285px;
+    }
+
+    .avatar-section {
+      width: 170px;
+      height: 170px;
+      margin-bottom: 20px;
+    }
   }
