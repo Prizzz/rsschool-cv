@@ -13,6 +13,8 @@
     <script>hljs.initHighlightingOnLoad();</script>
     <!--Style-->
     <link rel="stylesheet" href="css/style.css">
+    <!-- JS -->
+    <script src="js/main.js" defer></script>
 </head>
 <body>
     <div class="container">
@@ -20,9 +22,26 @@
             <div class="header_left-decoration decoration"></div>
             <div class="header_right-decoration decoration"></div>
             <div class="aside-decoration decoration"></div>
+
+            <div class="burger-icon">
+                <span></span>
+            </div>
+            <nav class="burger-menu">
+                <ul class="burger-list">
+                    <li><a href="#about" class="burger-link">about</a></li>
+                    <li><a href="#education" class="burger-link">education</a></li>
+                    <li><a href="#lang" class="burger-link">language</a></li>
+                    <li><a href="#code" class="burger-link">code example</a></li>
+                    <li><a href="#projects" class="burger-link">projects</a></li>
+                    <li><a href="#hard" class="burger-link">professional skills</a></li>
+                    <li><a href="#soft" class="burger-link">personal skills</a></li>
+                    <li><a href="#contact" class="burger-link">contacts</a></li>
+                </ul>
+            </nav>
+
             <aside class="aside">
                 <img class="avatar" src="img/avatar.jpg" alt="avatar">
-                <article class="hard-skills">
+                <article class="hard-skills" id="hard">
                     <h2 class="title">professional skills</h2>
                     <ul class="list">
                         <li class="list-item">HTML</li>
@@ -33,7 +52,7 @@
                         <li class="list-item">Figma (for web development)</li>
                     </ul> 
                 </article>
-                <article class="soft-skills">
+                <article class="soft-skills" id="soft">
                     <h2 class="title">personal skills</h2>
                     <ul class="list">
                         <li class="list-item">Organized</li>
@@ -43,7 +62,7 @@
                         <li class="list-item">Motivated</li>
                     </ul> 
                 </article>
-                <article class="contact">
+                <article class="contact" id="contact">
                     <h2 class="title">contacts</h2>
                     <ul class="list">
                         <li class="list-item">P: +79880762141</li>
@@ -59,14 +78,14 @@
                     <h1 class="name">Robert<br>Arakelyan</h1>
                     <h3 class="post">Junior Frontend Developer</h3>
                 </header>
-                <section class="about">
+                <section class="about" id="about">
                     <h2 class="title">about</h2>
                     <p class="about-info">
                         I’m a beginner front-end developer. Currently I want to become a professional in my field.
                         I strive for knowledge and new skills. I can learn quickly and solve problems
                     </p>
                 </section>
-                <section class="education">
+                <section class="education" id="education">
                     <h2 class="title">education</h2>
                     <p class="education-info">
                         <ul class="list">
@@ -81,14 +100,14 @@
                         </ul>
                     </p>
                 </section>
-                <section class="language">
+                <section class="language" id="lang">
                     <h2 class="title">language</h2>
                     <ul class="list">
                         <li class="list-item">English: A1</li>
                         <li class="list-item">Russian: Native</li>
                     </ul>
                 </section>
-                <section class="code">
+                <section class="code" id="code">
                     <h2 class="title">code example</h2>
                     <pre><code class="js">
 function nicknameGenerator(name){
@@ -100,7 +119,7 @@ function nicknameGenerator(name){
 }
                     </code></pre>
                 </section>
-                <section class="projects">
+                <section class="projects" id="projects">
                     <h2 class="title">projects</h2>
                     <div class="project">
                         <a href="https://prizzz.github.io/Money-Keeper/" target="_blank">
@@ -133,7 +152,7 @@ function nicknameGenerator(name){
                         </p>
                     </div>
                 </section>
-                <section class="hard-skills-section">
+                <section class="hard-skills-section" id="hard">
                     <h2 class="title">professional skills</h2>
                     <ul class="list">
                         <li class="list-item">HTML</li>
@@ -144,7 +163,7 @@ function nicknameGenerator(name){
                         <li class="list-item">Figma (for web development)</li>
                     </ul>
                 </section>
-                <section class="soft-skills-section">
+                <section class="soft-skills-section" id="soft">
                     <h2 class="title">personal skills</h2>
                     <ul class="list">
                         <li class="list-item">Organized</li>
@@ -154,7 +173,7 @@ function nicknameGenerator(name){
                         <li class="list-item">Motivated</li>
                     </ul> 
                 </section>
-                <section class="contacts-section">
+                <section class="contacts-section" id="contact">
                     <h2 class="title">contacts</h2>
                     <ul class="list">
                         <li class="list-item">P: +79880762141</li>
