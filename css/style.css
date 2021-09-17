@@ -202,6 +202,12 @@ font-family: 'Nunito', sans-serif;*/
     display: none;
   }
 
+  a[href="#hard-double"],
+  a[href="#soft-double"],
+  a[href="#contact-double"] {
+    display: none;
+  }
+
   .burger-menu {
     position: absolute;
     top: -100%;
@@ -372,6 +378,18 @@ font-family: 'Nunito', sans-serif;*/
     .soft-skills-section,
     .contacts-section,
     .avatar-section {
+      display: block;
+    }
+
+    a[href="#hard"],
+    a[href="#soft"],
+    a[href="#contact"] {
+      display: none;
+    }
+
+    a[href="#hard-double"],
+    a[href="#soft-double"],
+    a[href="#contact-double"] {
       display: block;
     }
 
